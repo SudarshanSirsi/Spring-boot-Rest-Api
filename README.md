@@ -19,7 +19,7 @@ Before running the application, ensure you have the following prerequisites inst
 ## Installation
 
 1. Clone the repository from GitHub:
-  git clone https://github.com/SudarshanSirsi/Spring-boot-Rest-Api.git
+ ``` git clone https://github.com/SudarshanSirsi/Spring-boot-Rest-Api.git```
 
 2. Open Eclipse or Spring Tool Suite (STS).
 
@@ -34,10 +34,11 @@ Before running the application, ensure you have the following prerequisites inst
 1. Open the `application.properties` file located in the `src/main/resources` directory.
 
 2. Modify the following properties according to your database configuration:
-
-- spring.datasource.url=jdbc:mysql://localhost:3306/your-database
-- spring.datasource.username=your-username
-- spring.datasource.password=your-password
+```
+ spring.datasource.url=jdbc:mysql://localhost:3306/your-database
+ spring.datasource.username=your-username
+ spring.datasource.password=your-password
+```
 
 
 You can change the database URL, username, and password to match your environment.
